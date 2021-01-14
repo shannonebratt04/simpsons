@@ -1,0 +1,228 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header, body, main, footer{ width: 100%;}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "kumbh sans";  
+}
+
+header{
+    height: 918px;
+    width: 100%;   
+    width: 100%;
+    background-color:#ffffff;
+
+}
+
+main{
+    height: auto;
+    margin-bottom: 0%;
+    position: relative;
+} 
+
+footer{
+    background-color:#75bde0;
+    height: 600px;
+
+}
+
+ nav {
+     width: 100%;
+     height: 90px;
+     background-color: #75bde0;
+     display: flex;
+   
+ }
+nav>div{  width: 450%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+        
+}
+
+    #wrapper-logo{
+        width: 200px;
+        margin-top: -10px;
+        position: absolute;
+        transform: translateX(-35px);
+        
+       
+
+    
+    }
+   
+    #wrapper-elements-menu{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 32px;
+        list-style-type: none;
+    }
+
+    .element-menu{
+        font-family: "kumbh sans";
+        font-weight: bold;
+        color: honeydew;
+        font-size: 17px;
+        margin-left: 50px;
+        left: 200px;
+      transform: translateX(-100%);}
+    
+    
+    .element-menu-2{
+        font-family: "kumbh sans";
+        font-weight: bold;
+        color: honeydew;
+        font-size: 17px;
+        margin-left: 50px;
+        transform: translateX(100%);}
+    
+
+    
+#banner-home{
+    width: 100%;
+    height: 740px;
+    margin-top: 0%;
+    position: relative;
+    background-image: url('../../Images/banner-home-dt2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: brown;}
+
+
+
+.Icon-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        position: relative;
+        justify-content: center;
+        margin-bottom: 200px;
+}
+
+
+    
+
+#tittle{
+    display: flex; 
+    font-family: "kumbh sans";
+    font-weight: bold;
+    justify-content: center;
+    font-size: 30pt;
+    color:#ffca00;
+    transform: translateY(100px);}
+    
+
+#info{
+    width: 800px;
+    display: flex;    
+    font-family: "kumbh sans";
+    font-weight: normal;
+    color: rgb(36, 43, 43);
+    text-align: justify;
+    transform: translateY(150px);
+    justify-content: center;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;}
+    
+.controls{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    border: none;
+    font-family: "kumbh sans";
+    margin: auto;
+    font-size: 14pt;
+    display: flex;
+    color: #999999;
+    transform: translateY(120px);
+    position: relative;
+}
+
+#datos{ display: flex; 
+    font-family: "kumbh sans";
+    font-weight: bold;
+    justify-content: center;
+    font-size: 15pt;
+    position: relative;
+    color:#ffca00;
+    transform: translateY(310px);}
+
+    #mail{ display: flex; 
+        font-family: "kumbh sans";
+        font-weight: bold;
+        justify-content: center;
+        font-size: 15pt;
+        position: relative;
+        color:#ffca00;
+        transform: translateY(220px);}
+
+
+#correo{ height: 40px;
+    margin-top: 100px;
+    position: relative;
+}
+
+#BD{
+    height: 40px;
+    margin-top: 70px;
+    
+}
+.botons{
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    background-color: #ffca00;
+    font-family: "kumbh sans";
+    font-weight: bold;
+    font-size: 14pt;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    position: relative;
+    transform: translateY(150px);
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    #banner-home{
+        height: 650px;
+        background-image: url('../../Images/banner-home-dt2.jpg');
+    }
+}
+
+@media (max-width: 768px) {
+        
+    #banner-home{
+        height: 500px;
+        background-image: url('../../Images/banner-homme-tb2.png.jpg');
+    }
+}
+
+@media (max-width: 480px) {
+    #banner-home{
+        height: 0px;
+        background-color:none;
+        background-image: none;
+    }
+}
+
